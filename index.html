@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Maniar Eye Clinic — Dr. Nittal Maniar</title>
+<meta name="description" content="Maniar Eye Clinic, led by Dr. Nittal Maniar — comprehensive eye care.">
+
+<!--
+  ============================================================
+  HOW TO EDIT THIS PAGE (no coding needed)
+  ============================================================
+  1. Open this file (index.html) in any text editor (Notepad,
+     TextEdit, or VS Code).
+  2. Look for comments that say <!-- EDIT: ... -->
+  <!--. Just below
+     each one, replace the placeholder text with your own.
+  3. To add photos: put your image files inside the "images"
+     folder and make sure they are named EXACTLY:
+        images/logo.png     -> clinic logo
+        images/doctor.jpg   -> photo of Dr. Nittal Maniar
+     If a file with that exact name isn't found, the page will
+     automatically show a neat placeholder box instead — so the
+     page never looks broken while you're still adding photos.
+  4. Save the file and refresh your browser to see the changes.
+  ============================================================
+-->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Karla:wght@400;500;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="images/logo.png" type="image/png">
+</head>
+<body>
+
+<!-- ================= HEADER ================= -->
+<header class="site-header" id="siteHeader">
+  <div class="wrap">
+    <a href="#top" class="brand">
+      <!-- Logo image. Add your logo file as images/logo.png -->
+      <img src="images/logo.png" alt="Maniar Eye Clinic logo" class="brand-logo"
+           onerror="this.outerHTML='<span class=&quot;brand-logo placeholder-box&quot;>LOGO</span>'">
+      <span class="brand-name">
+        Maniar Eye Clinic
+        <span>Dr. Nittal Maniar</span>
+      </span>
+    </a>
+
+    <nav class="site-nav" id="siteNav">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#location">Location</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="top">
+  <svg class="iris-motif" viewBox="0 0 400 400" aria-hidden="true">
+    <circle cx="200" cy="200" r="196" fill="none" stroke="#F3C79A" stroke-width="1"/>
+    <circle cx="200" cy="200" r="160" fill="none" stroke="#F3C79A" stroke-width="1"/>
+    <circle cx="200" cy="200" r="124" fill="none" stroke="#F3C79A" stroke-width="1"/>
+    <circle cx="200" cy="200" r="88" fill="none" stroke="#F3C79A" stroke-width="1"/>
+    <circle cx="200" cy="200" r="52" fill="none" stroke="#F3C79A" stroke-width="1.4"/>
+    <circle cx="200" cy="200" r="18" fill="#F3C79A"/>
+  </svg>
+
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <span class="eyebrow">Eye Care, Attentively Given</span>
+      <!-- EDIT: hero headline -->
+      <h1>Clear sight, <em>cared for</em> by Dr. Nittal Maniar</h1>
+      <!-- EDIT: hero introductory line -->
+      <p class="lead">Maniar Eye Clinic offers thorough, patient-first eye examinations and treatment in a calm, modern setting. Add a short welcoming line here about your practice.</p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-primary">Book a Consultation</a>
+        <a href="#services" class="btn btn-ghost">View Services</a>
+      </div>
+    </div>
+
+    <div class="hero-photo">
+      <!-- Doctor photo. Add your photo as images/doctor.jpg -->
+      <img src="images/doctor.jpg" alt="Dr. Nittal Maniar"
+           onerror="this.outerHTML='<div class=&quot;placeholder-box&quot;><svg width=&quot;34&quot; height=&quot;34&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;1.4&quot;><circle cx=&quot;12&quot; cy=&quot;8&quot; r=&quot;4&quot;/><path d=&quot;M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8&quot;/></svg><span>Add a photo of Dr. Nittal Maniar<br>as images/doctor.jpg</span></div>'">
+      <div class="caption">Dr. Nittal Maniar</div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= ABOUT + QUALIFICATIONS ================= -->
+<section id="about">
+  <div class="wrap about-grid">
+    <div class="about-photo reveal">
+      <img src="images/doctor.jpg" alt="Dr. Nittal Maniar portrait"
+           onerror="this.outerHTML='<div class=&quot;placeholder-box&quot;>Photo of Dr. Nittal Maniar<br>(images/doctor.jpg)</div>'">
+    </div>
+
+    <div class="about-text reveal">
+      <span class="eyebrow">About the Clinic</span>
+      <h2>Meet Dr. Nittal Maniar</h2>
+      <!-- EDIT: doctor bio -->
+      <p class="placeholder">Add a short paragraph here introducing Dr. Nittal Maniar — background, approach to patient care, and years of experience.</p>
+
+      <div class="qualifications">
+        <h3>Qualifications</h3>
+        <p class="hint">Add each qualification, degree, or certification as its own line below.</p>
+        <ul>
+          <!-- EDIT: add / replace qualification list items -->
+          <li class="placeholder">Add qualification here (e.g. MBBS, MS Ophthalmology)</li>
+          <li class="placeholder">Add qualification here</li>
+          <li class="placeholder">Add qualification here</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SERVICES ================= -->
+<section class="section-alt" id="services">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">What We Offer</span>
+      <h2>Services</h2>
+      <p>Tap or hover a card to see details. Edit the text inside each card in index.html.</p>
+    </div>
+
+    <div class="services-grid">
+
+      <!-- Service card 1 — EDIT title, icon-alt text, and back description -->
+      <div class="flip-card reveal" tabindex="0">
+        <div class="flip-card-inner">
+          <div class="flip-face flip-front">
+            <div>
+              <svg class="flip-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3">
+                <path d="M1 12s4-7 11-7 11 7 11 7-4 7-11 7-11-7-11-7z"/>
+                <circle cx="12" cy="12" r="3.4"/>
+              </svg>
+              <h3>Service One</h3>
+              <p class="placeholder">Short one-line summary of this service.</p>
+            </div>
+            <span class="tap-hint">Tap to read more →</span>
+          </div>
+          <div class="flip-face flip-back">
+            <div>
+              <h4>Service One</h4>
+              <p class="placeholder">Add a fuller description of this service — what it involves, who it's for, and what to expect.</p>
+            </div>
+            <span class="tap-hint">← Tap to flip back</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Service card 2 -->
+      <div class="flip-card reveal" tabindex="0">
+        <div class="flip-card-inner">
+          <div class="flip-face flip-front">
+            <div>
+              <svg class="flip-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3">
+                <circle cx="12" cy="12" r="9"/>
+                <path d="M12 7v5l3.5 2"/>
+              </svg>
+              <h3>Service Two</h3>
+              <p class="placeholder">Short one-line summary of this service.</p>
+            </div>
+            <span class="tap-hint">Tap to read more →</span>
+          </div>
+          <div class="flip-face flip-back">
+            <div>
+              <h4>Service Two</h4>
+              <p class="placeholder">Add a fuller description of this service — what it involves, who it's for, and what to expect.</p>
+            </div>
+            <span class="tap-hint">← Tap to flip back</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Service card 3 -->
+      <div class="flip-card reveal" tabindex="0">
+        <div class="flip-card-inner">
+          <div class="flip-face flip-front">
+            <div>
+              <svg class="flip-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3">
+                <path d="M4 4h16v13H8l-4 4V4z"/>
+              </svg>
+              <h3>Service Three</h3>
+              <p class="placeholder">Short one-line summary of this service.</p>
+            </div>
+            <span class="tap-hint">Tap to read more →</span>
+          </div>
+          <div class="flip-face flip-back">
+            <div>
+              <h4>Service Three</h4>
+              <p class="placeholder">Add a fuller description of this service — what it involves, who it's for, and what to expect.</p>
+            </div>
+            <span class="tap-hint">← Tap to flip back</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================= LOCATION ================= -->
+<section id="location">
+  <div class="wrap location-grid">
+    <div class="location-card reveal">
+      <span class="eyebrow">Find Us</span>
+      <h3>Clinic Address</h3>
+      <!-- EDIT: replace with the clinic's real address -->
+      <p class="address-block placeholder">
+        Add the clinic address here.<br>
+        Street, Area,<br>
+        City, State, PIN code
+      </p>
+      <a href="#" class="btn btn-primary" id="directionsLink">Get Directions</a>
+    </div>
+
+    <div class="map-frame reveal">
+      <!--
+        EDIT: optional map embed.
+        Once you have a real address, go to Google Maps, search
+        for the clinic, click "Share" -> "Embed a map", copy the
+        <iframe> code it gives you, and paste it below in place
+        of this comment. Then you can delete the placeholder text.
+      -->
+      Map will appear here once you embed a Google Maps link (see comment in index.html).
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section class="section-alt" id="contact">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">Get in Touch</span>
+      <h2>Contact Details</h2>
+    </div>
+
+    <div class="contact-grid">
+      <div class="contact-card reveal">
+        <span class="eyebrow">Phone</span>
+        <!-- EDIT: replace with real phone number -->
+        <a href="tel:+910000000000" class="placeholder">Add phone number</a>
+      </div>
+      <div class="contact-card reveal">
+        <span class="eyebrow">Email</span>
+        <!-- EDIT: replace with real email -->
+        <a href="mailto:info@example.com" class="placeholder">Add email address</a>
+      </div>
+      <div class="contact-card reveal">
+        <span class="eyebrow">Clinic Hours</span>
+        <!-- EDIT: replace with real hours -->
+        <p class="placeholder">Add clinic hours here<br>(e.g. Mon–Sat, 10am–7pm)</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <img src="images/logo.png" alt="Maniar Eye Clinic logo" class="brand-logo"
+           onerror="this.outerHTML='<span class=&quot;brand-logo placeholder-box&quot;>LOGO</span>'">
+      <span class="brand-name">
+        Maniar Eye Clinic
+        <span>Dr. Nittal Maniar</span>
+      </span>
+    </div>
+    <hr class="footer-rule">
+    <div class="footer-bottom">
+      <span>&copy; <span id="year"></span> Maniar Eye Clinic. All rights reserved.</span>
+      <span>Designed with care.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
